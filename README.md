@@ -12,6 +12,8 @@ cmdlist is a simple interactive CLI tool that lets you execute your frequently u
 4. Select the command you want to execute from the list.
 5. cmdlist will execute the selected command for you.
 
+![Screenshot](screenshot.gif)
+
 ## Installation
 
 To use cmdlist, you need to install it globally:
