@@ -12,8 +12,10 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+const cwd = process.cwd();
+
 try {
-  const filename = path.join(__dirname, ".cmdlist");
+  const filename = path.join(cwd, ".cmdlist");
   const fileData = fs.readFileSync(filename, "utf8");
   const commands = fileData.split("\n").map((line) => line.trim());
 
