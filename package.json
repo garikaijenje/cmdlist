@@ -1,0 +1,32 @@
+{
+  "name": "cmdlist",
+  "version": "1.0.0",
+  "description": "A simple interactive CLI tool that lets you execute your frequently used terminal commands.",
+  "main": "index.js",
+  "bin": {
+    "cmdlist": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "terminal",
+    "commands",
+    "interactive"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garikai Jenje",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "readline": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<username>/<repository-name>"
+  },
+  "bugs": {
+    "url": "https://github.com/<username>/<repository-name>/issues"
+  }
+}
