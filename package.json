@@ -1,6 +1,6 @@
 {
   "name": "cmdlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple interactive CLI tool that lets you execute your frequently used terminal commands.",
   "main": "index.js",
   "bin": {
